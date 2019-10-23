@@ -9,6 +9,7 @@ function fn(){
 	var mm = Math.floor(date1/1000/60)%60;
 	var ss = Math.floor(date1/1000)%60;
 	var str = `${DD}天${a(hh)}小时${a(mm)}分${a(ss)}秒`;
+	console.log(str)
 	p1.innerHTML = str;
 }
 fn();
